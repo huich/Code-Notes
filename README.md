@@ -6,6 +6,7 @@
 * angular
 * vue
 * react
+* [ES6]()
 
 ## :blue_book: 后端知识汇总
 * C#
