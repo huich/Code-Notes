@@ -1,6 +1,6 @@
 ## ECMAScript 6
 目录
-1. let和const
+1. [let和const](#let和const)
 2. 变量
 3. 字符串
 4. 正则
