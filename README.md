@@ -6,7 +6,7 @@
 * angular
 * vue
 * react
-* [ES6]()
+* [ES6](https://github.com/huich/Code-Notes/blob/main/doc/ECMAScript6)
 
 ## :blue_book: 后端知识汇总
 * C#
