@@ -1,4 +1,5 @@
-## ECMAScript 6
+# ECMAScript 6
+
 目录
 1. [let和const](#let和const)
 2. 变量
@@ -14,6 +15,9 @@
 12. proxy
 13. reflect
 14. promise
+
 ******
-### let和const
+
+## let和const
+
 
