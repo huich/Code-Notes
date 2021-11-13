@@ -67,6 +67,42 @@
         return -1;
 };
 
+``` 
+
+* 拓展一：若needle重复出现返回所有位置  
+
+``` 
+      /**
+      @param{string}heystack
+      @param{string}needle
+      @return{number}
+      */
+     var strStr = function(haystack, needle) {
+        //return haystack.indexOf(needle);
+        //暴力求解
+        let n=haystack.length;
+        let m=needle.length;
+        let arr=[];
+        for(let i=0;i+m<=n;i++){
+            let flag=true;
+            for(let j=0;j<m;j++){
+                if(haystack[i+j]!=needle[j]){
+                    flag=false;
+                    break;
+                }
+            } 
+            if(flag){
+                arr.push(i);
+            }
+        }
+        if(arr.length===0){
+            return -1;
+        }else{
+            return arr.join(",");
+        }
+        
+};
+
 ```
 
 
