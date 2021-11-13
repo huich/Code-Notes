@@ -95,11 +95,10 @@
                 arr.push(i);
             }
         }
-        if(arr.length===0){
-            return -1;
-        }else{
-            return arr.join(",");
+        if(arr.length>0){
+            return arr.join(",");  
         }
+        return -1;
         
 };
 
