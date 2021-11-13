@@ -3,6 +3,7 @@
 * 算法2
 
 #### :green_book: 前端知识汇总
+* [HTTP](https://github.com/huich/Code-Notes/blob/main/doc/HTTP.md)
 * angular
 * vue
 * react
