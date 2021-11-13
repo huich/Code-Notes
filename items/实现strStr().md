@@ -39,3 +39,17 @@
       }
 ```
 
+* 题解二：  
+
+``` 
+      /**
+      @param{string}heystack
+      @param{string}needle
+      @return{number}
+      */
+      var strStr=function(heystack,needle){
+          
+      }
+```
+
+
