@@ -1,5 +1,5 @@
 #### :closed_book: 算法类型汇总
-* 算法1
+* [LeetCode](https://github.com/huich/Code-Notes/blob/main/doc/ECMAScript6.md)
 * 算法2
 
 #### :green_book: 前端知识汇总
