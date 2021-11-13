@@ -1,5 +1,5 @@
 #### :closed_book: 算法类型汇总
-* [LeetCode](https://github.com/huich/Code-Notes/new/main/items/LeetCodeList.md)
+* [LeetCode](https://github.com/huich/Code-Notes/blob/main/items/LeetCodeList.md)
 * 算法2
 
 #### :green_book: 前端知识汇总
