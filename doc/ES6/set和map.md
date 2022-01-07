@@ -75,7 +75,15 @@
        
     6. Map.prototype.clear(key) 
        
-       clear方法
+       clear方法用来清除所有值，没有返回值。
+       
+       ``` 
+       const map=new Map().set(undefined,"undefined").set(456,"number");
+       
+       map.size;//2
+       map.clear();
+       map.size;//0
+       ```
   
     
     
