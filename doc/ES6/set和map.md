@@ -73,7 +73,7 @@
        map.has(undefined);//false
        ```
        
-    6. Map.prototype.clear(key) 
+    6. Map.prototype.clear() 
        
        clear方法用来清除所有值，没有返回值。
        
