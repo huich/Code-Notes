@@ -62,9 +62,20 @@
        
        ```
        
-    7. Map.prototype.delete(key) 
-    8. Map.prototype.clear(key) 
-     
+    5. Map.prototype.delete(key) 
+    
+       delete方法用来删除map中的某个键，删除成功返回true，失败返回false。
+       
+       ``` 
+       const map=new Map().set(undefined,"undefined").set(456,"number");
+       
+       map.delete(undefined);
+       map.has(undefined);//false
+       ```
+       
+    6. Map.prototype.clear(key) 
+       
+       clear方法
   
     
     
