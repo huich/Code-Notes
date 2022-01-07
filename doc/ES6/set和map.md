@@ -23,13 +23,45 @@
        ``` 
        
     2. Map.prototype.set(key,value) 
+       
+       set方法设置键名和键值，然后返回map的整个结构，若已有键名则重新复制。
+       
+       ``` 
+       const map=new Map();
+       
+       map.set(undefined,"undefined"); //键值是undefined
+       map.set(222,"数字");//键值是数字
+       map.set("数字",222);//键值是字符串
+       ```
+       
+       set方法返回map对象，因此可以用链式写法。
+       
+       ``` 
+       let map=new Map().set("1",1).set("2",2).set("3",3);
+       ```
     
+    3. Map.prototype.get(key) 
     
-    
-    4. Map.prototype.get(key)
-
-
-    6. Map.prototype.has(key) 
+       get方法是读取key值对应的value，没有对应的key返回undefined.
+       
+       ``` 
+       const map=new Map();
+       map.set("one",1);
+       map.get("one");//1
+       ```
+       
+    4. Map.prototype.has(key)
+       
+       has发法表示Map中是否有某个键，返回布尔值。
+       
+       ``` 
+       let map=new Map().set("1",1).set("2",2).set("3",3);
+       
+       map.has("1");//true
+       map.has("4");//false
+       
+       ```
+       
     7. Map.prototype.delete(key) 
     8. Map.prototype.clear(key) 
      
