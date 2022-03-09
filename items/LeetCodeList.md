@@ -46,6 +46,17 @@
     }
     ``` 
 
+    63.不同路径2(中等) 
+    状态转移方程：f[i][j]=f[i-1][j]+f[i][j-1] 
+
+    ``` 
+    const uniquePathWithObstacles=(obstacleGrid)=>{
+        const m=obstacleGrid.length;
+        const n=obstacleGrid[0].length;
+        
+    }
+    ```
+
 
 
 
