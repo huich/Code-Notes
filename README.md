@@ -1,4 +1,4 @@
-#### :closed_book: 算法类型汇总
+#### :closed_book: 算法
 * [算法与数据结构](https://github.com/huich/Code-Notes/blob/main/items/LeetCodeList.md)
 
 #### :green_book: 前端知识汇总
