@@ -53,7 +53,7 @@
     const uniquePathWithObstacles=(obstacleGrid)=>{
         const m=obstacleGrid.length;
         const n=obstacleGrid[0].length;
-        
+
     }
     ```
 
