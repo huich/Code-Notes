@@ -70,6 +70,7 @@
     ```
 
     70.爬楼梯(中等) 
+    
     状态转移方程：dp[n]=dp[n-1]+dp[n-2] 
     ``` 
     const climbStairs=(n)=>{
@@ -84,6 +85,7 @@
     ``` 
 
     279.完全平方数(中等) 
+
     状态转移方程：Math.min(dp[i],dp[i-j*j]+1) 
     ``` 
     var numSquares = function(n) {
@@ -92,8 +94,8 @@
         dp[i]=i;
         for(let j=1;i-j*j>=0;j++){
             dp[i]=Math.min(dp[i],dp[i-j*j]+1);
+            }
         }
-    }
         return dp[n];
     };
     ``` 
