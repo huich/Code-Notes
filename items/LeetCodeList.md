@@ -88,7 +88,7 @@
     }
     ``` 
 
-    279. [完全平方数(中等)](https://leetcode-cn.com/problems/perfect-squares/)
+    279.[完全平方数(中等)](https://leetcode-cn.com/problems/perfect-squares/)
 
     状态转移方程：Math.min(dp[i],dp[i-j*j]+1) 
 
