@@ -25,7 +25,7 @@
     ``` 
 
     62.不同路径(中等) 
-    
+
     状态转移方程：f[i][j]=f[i-1][j]+f[i][j-1]; 
     
     ```
@@ -88,7 +88,7 @@
     }
     ``` 
 
-    279.完全平方数(中等) 
+    279. [完全平方数(中等)](https://leetcode-cn.com/problems/perfect-squares/)
 
     状态转移方程：Math.min(dp[i],dp[i-j*j]+1) 
 
