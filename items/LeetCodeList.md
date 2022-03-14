@@ -88,7 +88,7 @@
     }
     ``` 
 
-    279.[完全平方数(中等)](https://leetcode-cn.com/problems/perfect-squares/)
+    279.[完全平方数](https://leetcode-cn.com/problems/perfect-squares/)(中等)
 
     状态转移方程：Math.min(dp[i],dp[i-j*j]+1) 
 
@@ -104,6 +104,33 @@
         return dp[n];
     };
     ``` 
+
+    120.[三角形最小路径](https://leetcode-cn.com/problems/triangle/)(中等) 
+
+    状态转移方程：Math.min(dp[i+1][j],dp[i+1][j+1])+triange[i][j] 
+
+    ``` 
+    const minimumTotal=(triangle)=>{
+        const h=triangle.length;
+        //初始化dp数组
+        const dp=Array(h);
+        for(let i=0;i<h;i++){
+            dp[i]=Array(triangle[i].length);
+        }
+
+        for(let i=h-1;i>=0;i--){
+            for(let j=0;j<triangle[i].length;j++){
+                if(i==h-1){
+                    dp[i][j]=triangle[i][j];
+                }else{
+                    dp[i][j]=Math.min(dp[i+1][j],dp[i+1][j+1])+triangle[i][j];
+                }
+            }
+        }
+        return dp[0][0];
+    }
+    ``` 
+
 
 
 
