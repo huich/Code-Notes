@@ -27,10 +27,12 @@
 ```
 props:{
   content{
-    title:'',
-    message:'',
-    cancel:'',
-    OK:''
+    title:String,
+    message:String,
+    cancel:String,
+    OK:String,
+    successCallback:Function,
+    closeCallBack:Function
   }
 }
 
