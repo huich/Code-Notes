@@ -41,4 +41,10 @@ yarn global upgrade --latest @vue/cli
 vue create hello world 
 ``` 
 
-[hello world](https://github.com/huich/hello-world) 
+[hello world](https://github.com/huich/hello-world)  
+
+2. 启动项目； 
+
+``` 
+npm run serve 
+``` 
