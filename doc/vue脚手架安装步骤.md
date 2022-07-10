@@ -33,10 +33,12 @@ npm update -g @vue/cli
 yarn global upgrade --latest @vue/cli
 ``` 
 
-### 使用CLI创建一个新项目； 
+### 使用CLI创建一个新项目 
 
 1. 创建一个vue项目； 
 
 ``` 
 vue create hello world 
 ``` 
+
+[hello world](https://github.com/huich/hello-world) 
