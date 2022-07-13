@@ -4,7 +4,7 @@
 #### :green_book: 前端知识汇总
 * [HTTP](https://github.com/huich/Code-Notes/blob/main/doc/HTTP.md)
 * angular
-* vue
+* [vue](https://github.com/huich/Code-Notes/blob/main/doc/vue/readme.md) 
 * react
 * [ES6](https://github.com/huich/Code-Notes/blob/main/doc/ECMAScript6.md)
 
