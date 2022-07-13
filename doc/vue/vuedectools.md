@@ -25,7 +25,6 @@ git clone https://github.com/vuejs/vue-devtools
 npm install 
 
 npm run build 
-
 ``` 
 
 3. 编译打包成功后会在shells下生成chrome的文件夹。 
