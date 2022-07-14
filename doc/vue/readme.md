@@ -10,6 +10,8 @@
 
 * [Vue Loader](https://github.com/huich/Code-Notes/blob/main/doc/vue/vueLoader.md) 
 
+* [Vue Element UI](https://github.com/huich/Code-Notes/blob/main/doc/vue/vueElementUI.md) 
+
 
 #### 插件 
 
