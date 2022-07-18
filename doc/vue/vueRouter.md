@@ -1,4 +1,4 @@
-## 二、vue Router 
+## vue Router 
 
 [官方文档](https://router.vuejs.org/zh/) 
 

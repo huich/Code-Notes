@@ -1,4 +1,4 @@
-## 三、vue Devtools 
+## vue Devtools 
 
 [官方文档](https://router.vuejs.org/zh/) 
 

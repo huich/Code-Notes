@@ -1,4 +1,4 @@
-## 四、vue XSS 
+## vue XSS 
 
 [官方文档](https://router.vuejs.org/zh/) 
 

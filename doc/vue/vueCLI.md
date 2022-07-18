@@ -1,4 +1,4 @@
-## 一、vue CLI 
+## vue CLI 
 
 [官方文档](https://cli.vuejs.org/zh/) 
 
