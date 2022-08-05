@@ -15,7 +15,7 @@
 * C#
 
 #### :orange_book: 数据库知识汇总
-* SQL
+* [SQL](https://github.com/huich/Code-Notes/blob/main/doc/SQL/%E5%B8%B8%E7%94%A8SQL%E8%AF%AD%E5%8F%A5.md) 
 
 #### :book: 面试题总结 
 * [前端面试题](https://github.com/huich/Code-Notes/blob/main/doc/%E5%B8%B8%E8%A7%81%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98.md) 
