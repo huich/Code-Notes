@@ -28,6 +28,28 @@
   2. 操作表 
 
     ``` 
+      -- 创建表 
+      create table person(
+        id int,
+        name varchar(32),
+        age int,
+        score double(4,1),
+        birthday date,
+        time timestamp
+      );
+      -- 查看表结构
+      desc 表名
+      -- 查看创建表的SQL语句
+      show create table 表名
+      -- 修改表名
+      alter table 表名 rename to 新的表名
+      -- 添加一列
+      alter table 表名 add 列名 数据类型
+      -- 删除列
+      alter table 表名 drop 列名
+      -- 删除表
+      alter table 表名
+      alter table if exists 表名;
 
     ``` 
 
