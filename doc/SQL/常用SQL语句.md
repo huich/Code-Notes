@@ -148,7 +148,18 @@
 
   4. 分组查询 group by 
 
+  group by 分组字段
+
+  注意：分组后查询的字段：分组字段 聚合函数
+
 ``` 
+    -- 按照性别分组分别查询男女同学的平均分
+    select sex,AVG(math) * from student group by sex
+    -- 按照性别分组分别查询男女同学的平均分和人数
+    select sex,AVG(math),count(id) from student group by sex
+    -- 按照性别进行分组查询男女同学的平均分人数，要求分数低于70分的人不参与分组
+    select sex,AVG(math),count(id) from student where math>70 group by sex
+    -- 
 
 ``` 
 
@@ -159,6 +170,24 @@
 ``` 
 
   6. 内连接查询  
+
+    1. 隐式内连接：使用where条件消除无用数据  
+``` 
+    -- 查询员工表的名称，性别。部门表的名称
+    SELECT emp.name,emp.gender,dept.name FROM emp,dept WHERE emp.`dept_id` = dept.`id`;
+    
+    SELECT 
+        t1.name, -- 员工表的姓名
+        t1.gender,-- 员工表的性别
+        t2.name -- 部门表的名称
+    FROM
+        emp t1,
+        dept t2
+    WHERE 
+        t1.`dept_id` = t2.`id`;
+``` 
+
+    2. 显式内连接 
 
 ``` 
 
