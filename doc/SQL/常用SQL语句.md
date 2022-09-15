@@ -102,7 +102,28 @@
     select * from gradesheet where grade in(80,85,90)
 
 ``` 
+    * is null 为null值 或者 is not null 
+    * like 模糊查询
+    * distinct  去除重复项 
 
+``` 
+    -- 查询英语成绩不为null
+    select * from gradesheet where english is not null
+    
+    _:单个任意字符
+    %:多个任意字符
+    -- 查询姓王的有哪些
+    select * from namesheet where name like '马%'
+    -- 查询第二个字是维的人
+    select * from namesheet where  name like '_维%'
+    -- 查询名字是两个字的人
+    select * from namesheet where name like '__'
+    -- 查询名字有辉的人
+    select * from namesheet where name like '%辉%'
+    -- 关键词distinct用于返回唯一不同的值
+    select distinct 列名 from * namesheet
+    
+``` 
   2. 排序查询 order by 
 
 ``` 
