@@ -58,18 +58,33 @@
   1. 增加 insert into
 
 ``` 
+    -- 插入表全部数据
+    insert into 表名(列名1,列名2,...列名n) values(值1,值2,...值n) 
+    -- 只插入值
+    insert into 表名 values(值1,值2,...值n)
+    -- 插入部分值
+    insert into 表名(列名1,列名2) values(值1,值2)
 
 ``` 
 
   2. 删除 delete  
 
 ``` 
-
+    -- 删除表中数据
+    delete from 表名 where 列名=值
+    -- 删除表中所有数据
+    delete from 表名
+    -- 删除表中所有数据(高效 先删除表然后再创建一张一样的表)
+    truncate table 表名
 ``` 
 
   3. 修改 update  
 
 ``` 
+    -- 不带条件修改
+    update 表名 set 列名=值
+    -- 待条件修改
+    update 表名 set 列名=值 where 列名=值
 
 ``` 
 
