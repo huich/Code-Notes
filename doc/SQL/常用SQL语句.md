@@ -88,51 +88,58 @@
 
 ``` 
 
-  * DQL 
+  * DQL 数据库查询语言 
 
-  1. 操作库 
+  1. 基础关键字 
+
+    between...and 在什么之间 和IN(集合)
+``` 
+    -- 查询成绩大于等于80小于等于90
+    select * from gradesheet  where grade>=80 and grade<=90
+    select * from gradesheet between 80 and 90
+    -- 查询成绩是80 85 90的数据
+    select * from gradesheet where grade=80 or grade=85 or grade=90
+    select * from gradesheet where grade in(80,85,90)
+
+``` 
+
+  2. 排序查询 order by 
 
 ``` 
 
 ``` 
 
-  2. 操作库 
+  3. 聚合函数：将一列数据作为一个整体，进行纵向计算  
 
 ``` 
 
 ``` 
 
-  2. 操作库 
+  4. 分组查询 grout by 
 
 ``` 
 
 ``` 
 
-  2. 操作库 
+  5. 分页查询 
 
 ``` 
 
 ``` 
 
-  2. 操作库 
+  6. 内连接查询  
 
 ``` 
 
 ``` 
 
-  2. 操作库 
+  7. 外连接查询  
 
 ``` 
 
 ``` 
 
-  2. 操作库 
-
-``` 
-
-``` 
-
-  2. 操作库 
+  8. 子查询：查询种嵌套查询  
 
 ``` 
 
