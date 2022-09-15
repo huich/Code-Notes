@@ -24,6 +24,6 @@
 
 
 #### :book: 编译器 
-* [VS code]() 
+* [VS code](https://github.com/huich/Code-Notes/blob/main/doc/Translater/vscode.md) 
 
 
