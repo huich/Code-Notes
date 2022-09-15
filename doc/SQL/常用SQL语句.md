@@ -10,7 +10,7 @@
 
   1. 操作库 
 
-    ``` 
+``` 
       -- 创建库
       create database db;
       -- 创建库是否存在，不存在则创建 
@@ -23,11 +23,11 @@
       alter database db character set utf8;
       -- 删除数据库
       drop database db;
-    ``` 
+  ``` 
 
   2. 操作表 
 
-    ``` 
+``` 
       -- 创建表 
       create table person(
         id int,
@@ -51,7 +51,7 @@
       alter table 表名
       alter table if exists 表名;
 
-    ``` 
+``` 
 
   * DML 数据操作语言 
 
