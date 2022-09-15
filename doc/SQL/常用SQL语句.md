@@ -6,7 +6,7 @@
 | :---: | :---: | :---: | :---: | 
 | DDL(Data Definition Language) | DML(Data Manipulation Language) | DQL(Data Query Language) |  DCL(Data Control Language) | 
 
-  * DDL 
+  * DDL 数据定义语言
 
   1. 操作库 
 
@@ -53,21 +53,21 @@
 
     ``` 
 
-  * DML 
+  * DML 数据操作语言 
 
-  1. 操作库 
-
-    ``` 
-
-    ``` 
-
-  2. 操作库 
+  1. 增加 insert into
 
     ``` 
 
     ``` 
 
-  3. 操作库 
+  2. 删除 delete  
+
+    ``` 
+
+    ``` 
+
+  3. 修改 update  
 
     ``` 
 
