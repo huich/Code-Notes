@@ -122,12 +122,17 @@
     select * from namesheet where name like '%辉%'
     -- 关键词distinct用于返回唯一不同的值
     select distinct 列名 from * namesheet
-    
+
 ``` 
   2. 排序查询 order by 
 
-``` 
+  注意：如果有多个排序字段，则当前面的条件一样时，才会判断第二个条件。
 
+``` 
+    --默认升序asc  (降序DESC)
+    select * from student order by grade
+    select * from student order by grade DESC 
+    
 ``` 
 
   3. 聚合函数：将一列数据作为一个整体，进行纵向计算  
