@@ -9,6 +9,8 @@
 * react
 * [ES6](https://github.com/huich/Code-Notes/blob/main/doc/ECMAScript6.md) 
 * 微前端 
+* 代码规范 
+* 框架 
 
 
 #### :blue_book: 后端知识汇总
