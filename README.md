@@ -9,7 +9,7 @@
 * react
 * [ES6](https://github.com/huich/Code-Notes/blob/main/doc/ECMAScript6.md) 
 * 微前端 
-* 代码规范 
+* [代码规范](https://github.com/huich/Code-Notes/blob/main/doc/%E5%89%8D%E7%AB%AF%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83.md) 
 * 框架 
 
 
