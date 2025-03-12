@@ -15,7 +15,7 @@
 
 #### :blue_book: 后端知识汇总
 * C#
-* [C# insight or best practice](https://github.com/huich/Code-Notes/blob/main/doc/SQL/%E5%B8%B8%E7%94%A8SQL%E8%AF%AD%E5%8F%A5.md) 
+* [C# insight or best practice](https://github.com/huich/Code-Notes/blob/main/doc/C%23insight.md) 
 
 #### :orange_book: 数据库知识汇总
 * [SQL](https://github.com/huich/Code-Notes/blob/main/doc/SQL/%E5%B8%B8%E7%94%A8SQL%E8%AF%AD%E5%8F%A5.md) 
